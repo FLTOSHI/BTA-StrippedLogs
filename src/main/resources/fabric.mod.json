@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "stripped_logs",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "Stripped Logs Mod",
+  "description": "This mod adds stripped logs blocks, to help decorate houses and expand color pallete.",
   "authors": [
     "Turnip Labs"
   ],
@@ -19,21 +19,18 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-			"turniplabs.examplemod.ExampleMod"
+      "fltoshi.stripped_logs.StrippedLogs"
     ],
 		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+          "fltoshi.stripped_logs.StrippedLogs"
 		],
 		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+          "fltoshi.stripped_logs.StrippedLogs"
 		],
 		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
+          "fltoshi.stripped_logs.StrippedLogs"
 		]
 	},
-  "mixins": [
-      "examplemod.mixins.json"
-  ],
 
   "depends": {
 		"minecraft": "^7.2-beta",
