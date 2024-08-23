@@ -21,13 +21,18 @@ public class StrippedLogs implements ModInitializer, GameStartEntrypoint, Recipe
 	static {
 		tconfig = new TomlConfigHandler(MOD_ID,
 				new Toml()
-						.addEntry("block-id-start","All mod blocks will have ids starting at this number. Edit this only if you are having id collision with other mods","1100")
+						.addEntry("block-id-start", "All mod blocks will have ids starting at this number. Edit this only if you are having id collision with other mods", "1100")
 		);
 	}
 
 	Block blockStrippedOakLog;
 	Block blockStrippedBirchLog;
 	Block blockStrippedPineLog;
+	Block blockStrippedMossyOakLog;
+	Block blockStrippedCherryLog;
+	Block blockStrippedEucalyptusLog;
+	Block blockStrippedPalmLog;
+	Block blockStrippedThornLog;
 
 	@Override
 	public void onInitialize() {
@@ -39,19 +44,45 @@ public class StrippedLogs implements ModInitializer, GameStartEntrypoint, Recipe
 				.addTags(BlockTags.MINEABLE_BY_AXE);
 
 		blockStrippedOakLog = strippedLog_builder.clone()
-				.setTextures("stripped_logs:block/stripped_oak_log")
-				.setTopBottomTextures("stripped_logs:block/stripped_oak_log_top")
+				.setTextures("stripped_logs:block/stripped_oak_side")
+				.setTopBottomTextures("stripped_logs:block/stripped_oak_top")
 				.build(new Block("stripped.oakLog", start_id++, Material.wood));
 
 		blockStrippedPineLog = strippedLog_builder.clone()
-				.setTextures("stripped_logs:block/stripped_pine_log")
-				.setTopBottomTextures("stripped_logs:block/stripped_pine_log_top")
+				.setTextures("stripped_logs:block/stripped_pine_side")
+				.setTopBottomTextures("stripped_logs:block/stripped_pine_top")
 				.build(new Block("stripped.pineLog", start_id++, Material.wood));
 
 		blockStrippedBirchLog = strippedLog_builder.clone()
-				.setTextures("stripped_logs:block/stripped_birch_log")
-				.setTopBottomTextures("stripped_logs:block/stripped_birch_log_top")
+				.setTextures("stripped_logs:block/stripped_birch_side")
+				.setTopBottomTextures("stripped_logs:block/stripped_birch_top")
 				.build(new Block("stripped.birchLog", start_id++, Material.wood));
+
+		blockStrippedMossyOakLog = strippedLog_builder.clone()
+				.setTextures("stripped_logs:block/stripped_oak_mossy_side")
+				.setTopBottomTextures("stripped_logs:block/stripped_oak_mossy_top")
+				.build(new Block("stripped.mossyOakLog", start_id++, Material.wood));
+
+		blockStrippedCherryLog = strippedLog_builder.clone()
+				.setTextures("stripped_logs:block/stripped_cherry_side")
+				.setTopBottomTextures("stripped_logs:block/stripped_cherry_top")
+				.build(new Block("stripped.cherryLog", start_id++, Material.wood));
+
+		blockStrippedEucalyptusLog = strippedLog_builder.clone()
+				.setTextures("stripped_logs:block/stripped_eucalyptus_side")
+				.setTopBottomTextures("stripped_logs:block/stripped_eucalyptus_top")
+				.build(new Block("stripped.eucalyptusLog", start_id++, Material.wood));
+
+		blockStrippedPalmLog = strippedLog_builder.clone()
+				.setTextures("stripped_logs:block/stripped_palm_side")
+				.setTopBottomTextures("stripped_logs:block/stripped_palm_top")
+				.build(new Block("stripped.palmLog", start_id++, Material.wood));
+
+		blockStrippedThornLog = strippedLog_builder.clone()
+				.setTextures("stripped_logs:block/stripped_thorn_side")
+				.setTopBottomTextures("stripped_logs:block/stripped_thorn_top")
+				.build(new Block("stripped.thornLog", start_id++, Material.wood));
+
 
 		LOGGER.info(MOD_ID + " initialized");
 	}

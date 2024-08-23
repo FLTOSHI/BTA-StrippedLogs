@@ -1,17 +1,14 @@
 {
   "schemaVersion": 1,
   "id": "stripped_logs",
-  "version": "${version}",
+  "version": "0.0.3",
 
   "name": "Stripped Logs Mod",
-  "description": "This mod adds stripped logs blocks, to help decorate houses and expand color pallete.",
+  "description": "This mod adds stripped logs blocks, to help decorate houses and expand color palette.",
   "authors": [
-    "Turnip Labs"
+    "FLTOSHI",
+		"Florian Roza"
   ],
-  "contact": {
-    "homepage": "",
-    "sources": ""
-  },
 
 	"icon": "icon.png",
   "license": "CC0-1.0",

@@ -6,3 +6,18 @@ tile.stripped_logs.stripped.birchLog.desc=Бревно берёзы, жесто�
 
 tile.stripped_logs.stripped.pineLog.name=Обтёсанное еловое бревно
 tile.stripped_logs.stripped.pineLog.desc=Бревно ели, жестоко лишенное своей коры при помощи топора.
+
+tile.stripped_logs.stripped.mossyOakLog.name=Обтёсанное бревно мохового дуба
+tile.stripped_logs.stripped.mossyOakLog.desc=Полено мшистого дуба, жестоко лишенное своей коры при помощи топора.
+
+tile.stripped_logs.stripped.cherryLog.name=Обтёсанное вишневое бревно
+tile.stripped_logs.stripped.cherryLog.desc=Вишневое бревно, жестоко лишенное своей коры при помощи топора.
+
+tile.stripped_logs.stripped.eucalyptusLog.name=Обтёсанное эвкалиптовое бревно
+tile.stripped_logs.stripped.eucalyptusLog.desc=Эвкалиптовое бревно, жестоко лишенное своей коры при помощи топора.
+
+tile.stripped_logs.stripped.palmLog.name=Обтёсанное пальмовое бревно
+tile.stripped_logs.stripped.palmLog.desc=Пальмовое бревно, жестоко лишенное своей коры при помощи топора.
+
+tile.stripped_logs.stripped.thornLog.name=Обтёсанное терновое бревно
+tile.stripped_logs.stripped.thornLog.desc=Бревно из терна, жестоко лишенное своей коры при помощи топора.

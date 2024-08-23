@@ -6,3 +6,18 @@ tile.stripped_logs.stripped.birchLog.desc=An birch log, cruelly stripped of its 
 
 tile.stripped_logs.stripped.pineLog.name=Stripped Pine Log
 tile.stripped_logs.stripped.pineLog.desc=An pine log, cruelly stripped of its bark with an axe.
+
+tile.stripped_logs.stripped.mossyOakLog.name=Stripped Mossy Oak Log
+tile.stripped_logs.stripped.mossyOakLog.desc=An mossy oak log, cruelly stripped of its bark with an axe.
+
+tile.stripped_logs.stripped.cherryLog.name=Stripped Cherry Log
+tile.stripped_logs.stripped.cherryLog.desc=An cherry log, cruelly stripped of its bark with an axe.
+
+tile.stripped_logs.stripped.eucalyptusLog.name=Stripped Eucalyptus Log
+tile.stripped_logs.stripped.eucalyptusLog.desc=An eucalyptus log, cruelly stripped of its bark with an axe.
+
+tile.stripped_logs.stripped.palmLog.name=Stripped Palm Log
+tile.stripped_logs.stripped.palmLog.desc=An palm log, cruelly stripped of its bark with an axe.
+
+tile.stripped_logs.stripped.thornLog.name=Stripped Thorn Log
+tile.stripped_logs.stripped.thornLog.desc=An thorn log, cruelly stripped of its bark with an axe.
